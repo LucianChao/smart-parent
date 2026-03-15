@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: smart-management
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    #0开头必须加 ''
+    password: 20030420
+
+  servlet:
+    multipart:
+      #单个文件最大上传限制，默认1MB
+      max-file-size: 10MB
+      #单次请求所有文件最大可上传的总大小，默认10MB
+      max-request-size: 100MB
+
+#mybatis配置
+mybatis:
+  configuration:
+    #配置SQL日志输出在控制台
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #驼峰命名规则映射
+    map-underscore-to-camel-case: true
+
+#自定义配置
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com/
+    bucketname: steamedfish-javaweb-tlias
+qwen:
+  api-key: sk-710a4b45e054408d9ed780f86362dbb0

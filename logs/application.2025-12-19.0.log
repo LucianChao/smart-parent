@@ -1,0 +1,233 @@
+2025-12-19 00:00:18.305 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:00:18.366 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-19 00:00:18.376 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-19 00:00:18.388 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-19 00:00:24.843 [main] INFO  c.javaweb.TliasManagementApplication - Starting TliasManagementApplication using Java 21.0.9 with PID 16872 (E:\Code\java\tlias-parent\tlias-web-manager\target\classes started by QiaoZ in E:\Code\java\tlias-parent)
+2025-12-19 00:00:24.853 [main] INFO  c.javaweb.TliasManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-19 00:00:25.880 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-19 00:00:25.890 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:00:25.892 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-19 00:00:25.892 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-19 00:00:25.970 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-19 00:00:25.970 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1082 ms
+2025-12-19 00:00:26.423 [main] INFO  com.javaweb.WebConfig - 注册拦截器
+2025-12-19 00:00:26.425 [main] INFO  com.javaweb.WebConfig - 登录检查拦截器已注册，应用于所有路径
+2025-12-19 00:00:26.817 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-12-19 00:00:26.855 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:00:26.871 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:00:26.880 [main] INFO  c.javaweb.TliasManagementApplication - Started TliasManagementApplication in 2.327 seconds (process running for 3.016)
+2025-12-19 00:00:26.886 [main] INFO  c.javaweb.TliasManagementApplication - 项目启动成功...
+2025-12-19 00:00:27.668 [RMI TCP Connection(3)-10.10.231.174] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:00:27.668 [RMI TCP Connection(3)-10.10.231.174] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:00:27.667 [RMI TCP Connection(1)-10.10.231.174] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-19 00:00:27.671 [RMI TCP Connection(3)-10.10.231.174] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-12-19 00:00:28.219 [RMI TCP Connection(1)-10.10.231.174] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@286149ce
+2025-12-19 00:00:28.235 [RMI TCP Connection(1)-10.10.231.174] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-19 00:00:37.821 [http-nio-8080-exec-1] ERROR c.j.exception.GlobalExceptionHandler - Request method 'PUT' is not supported
+2025-12-19 00:00:38.654 [http-nio-8080-exec-2] ERROR c.j.exception.GlobalExceptionHandler - Request method 'PUT' is not supported
+2025-12-19 00:00:39.501 [http-nio-8080-exec-3] ERROR c.j.exception.GlobalExceptionHandler - Request method 'PUT' is not supported
+2025-12-19 00:00:39.823 [http-nio-8080-exec-4] ERROR c.j.exception.GlobalExceptionHandler - Request method 'PUT' is not supported
+2025-12-19 00:00:40.738 [http-nio-8080-exec-5] ERROR c.j.exception.GlobalExceptionHandler - Request method 'PUT' is not supported
+2025-12-19 00:02:52.416 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:02:52.458 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-19 00:02:52.505 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-19 00:02:52.534 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-19 00:02:58.662 [main] INFO  c.javaweb.TliasManagementApplication - Starting TliasManagementApplication using Java 21.0.9 with PID 15552 (E:\Code\java\tlias-parent\tlias-web-manager\target\classes started by QiaoZ in E:\Code\java\tlias-parent)
+2025-12-19 00:02:58.663 [main] INFO  c.javaweb.TliasManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-19 00:02:59.798 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-19 00:02:59.808 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:02:59.809 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-19 00:02:59.809 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-19 00:02:59.881 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-19 00:02:59.883 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1183 ms
+2025-12-19 00:03:00.384 [main] INFO  com.javaweb.WebConfig - 注册拦截器
+2025-12-19 00:03:00.385 [main] INFO  com.javaweb.WebConfig - 登录检查拦截器已注册，应用于所有路径
+2025-12-19 00:03:00.824 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-12-19 00:03:00.862 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:03:00.878 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:03:00.887 [main] INFO  c.javaweb.TliasManagementApplication - Started TliasManagementApplication in 2.531 seconds (process running for 3.259)
+2025-12-19 00:03:00.892 [main] INFO  c.javaweb.TliasManagementApplication - 项目启动成功...
+2025-12-19 00:03:01.786 [RMI TCP Connection(5)-10.10.231.174] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:03:01.786 [RMI TCP Connection(5)-10.10.231.174] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:03:01.779 [RMI TCP Connection(3)-10.10.231.174] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-19 00:03:01.789 [RMI TCP Connection(5)-10.10.231.174] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-12-19 00:03:02.426 [RMI TCP Connection(3)-10.10.231.174] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dd73ca5
+2025-12-19 00:03:02.434 [RMI TCP Connection(3)-10.10.231.174] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-19 00:03:04.787 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/updatePassword
+2025-12-19 00:03:04.808 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:05.647 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/updatePassword
+2025-12-19 00:03:05.647 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:06.571 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/updatePassword
+2025-12-19 00:03:06.571 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:17.913 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:03:17.916 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:18.137 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:03:18.138 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:19.396 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:03:19.398 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:19.420 [http-nio-8080-exec-3] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:03:19.703 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:03:19.704 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:21.463 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:03:21.465 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:21.970 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:03:21.971 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:22.275 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps
+2025-12-19 00:03:22.280 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:22.282 [http-nio-8080-exec-10] INFO  c.javaweb.controller.EmpController - 分页查询: , null, null, null, 1, 10
+2025-12-19 00:03:23.705 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/empJobData
+2025-12-19 00:03:23.705 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:23.846 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/empGenderData
+2025-12-19 00:03:23.847 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:24.709 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentCountData
+2025-12-19 00:03:24.709 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:25.032 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentDegreeData
+2025-12-19 00:03:25.033 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:26.781 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /log/page
+2025-12-19 00:03:26.782 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766116501}
+2025-12-19 00:03:34.894 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /log/page
+2025-12-19 00:03:34.894 [http-nio-8080-exec-3] WARN  c.j.i.LoginCheckInterceptor - 请求头中缺少token
+2025-12-19 00:03:36.465 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /login
+2025-12-19 00:03:36.466 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 路径 /login 在白名单中，放行
+2025-12-19 00:03:36.469 [http-nio-8080-exec-7] INFO  c.javaweb.controller.LoginController - 员工登录：Emp(id=null, username=shinaian, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, role=null, deptName=null, exprList=null, oldPassword=null, newPassword=null)
+2025-12-19 00:03:39.175 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:03:39.175 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:03:39.175 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117016}
+2025-12-19 00:03:39.175 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117016}
+2025-12-19 00:03:39.177 [http-nio-8080-exec-8] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:03:39.629 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:03:39.631 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117016}
+2025-12-19 00:03:39.631 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:03:39.631 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117016}
+2025-12-19 00:03:54.630 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /login
+2025-12-19 00:03:54.630 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 路径 /login 在白名单中，放行
+2025-12-19 00:03:54.630 [http-nio-8080-exec-2] INFO  c.javaweb.controller.LoginController - 员工登录：Emp(id=null, username=shinaian, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, role=null, deptName=null, exprList=null, oldPassword=null, newPassword=null)
+2025-12-19 00:03:56.456 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:03:56.456 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:03:56.456 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:03:56.456 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:03:56.458 [http-nio-8080-exec-6] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:03:56.798 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:03:56.798 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:03:56.798 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:03:56.798 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:03:57.855 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentCountData
+2025-12-19 00:03:57.855 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:03:58.178 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentDegreeData
+2025-12-19 00:03:58.178 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=1, username=shinaian, exp=1766117034}
+2025-12-19 00:04:08.134 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /login
+2025-12-19 00:04:08.134 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 路径 /login 在白名单中，放行
+2025-12-19 00:04:08.135 [http-nio-8080-exec-8] INFO  c.javaweb.controller.LoginController - 员工登录：Emp(id=null, username=likui, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, role=null, deptName=null, exprList=null, oldPassword=null, newPassword=null)
+2025-12-19 00:04:10.144 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:04:10.144 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:04:10.145 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:10.145 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:10.145 [http-nio-8080-exec-10] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:04:10.627 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:04:10.627 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:04:10.627 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:10.627 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:12.219 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps
+2025-12-19 00:04:12.221 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:12.222 [http-nio-8080-exec-4] INFO  c.javaweb.controller.EmpController - 分页查询: , null, null, null, 1, 10
+2025-12-19 00:04:12.423 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:04:12.423 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:12.744 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:04:12.745 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:14.203 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentCountData
+2025-12-19 00:04:14.204 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:14.213 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/studentDegreeData
+2025-12-19 00:04:14.214 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:15.171 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /log/page
+2025-12-19 00:04:15.171 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:26.536 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps
+2025-12-19 00:04:26.538 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:26.539 [http-nio-8080-exec-10] INFO  c.javaweb.controller.EmpController - 分页查询: , null, null, null, 1, 10
+2025-12-19 00:04:26.847 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:04:26.848 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:50.507 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:04:50.507 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:04:50.508 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:50.508 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:50.508 [http-nio-8080-exec-2] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:04:50.757 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:04:50.758 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:51.007 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:04:51.007 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:51.706 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:04:51.708 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:52.392 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:04:52.392 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps
+2025-12-19 00:04:52.392 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:52.392 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:04:52.392 [http-nio-8080-exec-9] INFO  c.javaweb.controller.EmpController - 分页查询: , null, null, null, 1, 10
+2025-12-19 00:04:58.056 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /api/autoAnalysis
+2025-12-19 00:04:58.056 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 路径 /autoAnalysis 在白名单中，放行
+2025-12-19 00:04:58.056 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - 用户ID:8 Role:null 请求自动分析
+2025-12-19 00:04:58.058 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - 开始执行自动分析
+2025-12-19 00:04:58.058 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 开始进行数据分析
+2025-12-19 00:04:58.058 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 获取学员数据
+2025-12-19 00:04:58.068 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 获取到19名学员数据
+2025-12-19 00:04:58.068 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 计算高风险学员
+2025-12-19 00:04:58.070 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 平均违规次数: 1.0526315789473684
+2025-12-19 00:04:58.072 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 违规次数标准差: 1.9323747105985072
+2025-12-19 00:04:58.072 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 识别出4名高风险学员
+2025-12-19 00:04:58.072 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 分析异常班级
+2025-12-19 00:04:58.074 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 获取到9个班级
+2025-12-19 00:04:58.076 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 统计各班级违规次数完成
+2025-12-19 00:04:58.076 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 识别出2个异常班级
+2025-12-19 00:04:58.076 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 分析员工低绩效
+2025-12-19 00:04:58.079 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 获取到34名员工数据
+2025-12-19 00:04:58.079 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 识别出33名低绩效员工
+2025-12-19 00:04:58.079 [http-nio-8080-exec-8] INFO  c.j.service.impl.AutoAnalysisService - 数据分析完成
+2025-12-19 00:04:58.079 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - 自动分析数据获取完成，准备生成报告
+2025-12-19 00:04:58.079 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - 摘要信息: 高风险学员数量: 4
+异常班级数量: 2
+低绩效员工数量: 33
+2025-12-19 00:05:05.824 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - AI报告生成完成
+2025-12-19 00:05:05.824 [http-nio-8080-exec-8] INFO  c.j.controller.AnalysisController - 自动分析完成，返回结果
+2025-12-19 00:11:15.984 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:11:15.984 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:11:15.985 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:15.985 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:15.985 [http-nio-8080-exec-10] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:11:19.664 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:11:19.665 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:19.974 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:11:19.976 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:22.763 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:11:22.763 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:11:22.763 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:22.763 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:22.763 [http-nio-8080-exec-4] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 00:11:23.365 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:11:23.366 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:25.122 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps
+2025-12-19 00:11:25.122 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:11:25.123 [http-nio-8080-exec-7] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:25.123 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:25.123 [http-nio-8080-exec-7] INFO  c.javaweb.controller.EmpController - 分页查询: , null, null, null, 1, 10
+2025-12-19 00:11:52.283 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /depts
+2025-12-19 00:11:52.285 [http-nio-8080-exec-8] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:54.910 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/empJobData
+2025-12-19 00:11:54.912 [http-nio-8080-exec-10] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:55.146 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /report/empGenderData
+2025-12-19 00:11:55.146 [http-nio-8080-exec-1] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:56.951 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs/list
+2025-12-19 00:11:56.951 [http-nio-8080-exec-2] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:57.265 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /students
+2025-12-19 00:11:57.266 [http-nio-8080-exec-6] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:57.833 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 00:11:57.833 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 00:11:57.833 [http-nio-8080-exec-4] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:57.833 [http-nio-8080-exec-5] INFO  c.j.i.LoginCheckInterceptor - 令牌解析成功: {id=8, username=likui, exp=1766117048}
+2025-12-19 00:11:57.833 [http-nio-8080-exec-4] INFO  c.javaweb.controller.ClazzController - 分页查询：,null,null,1,10
+2025-12-19 13:43:22.823 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h48m19s452ms898µs200ns).
+2025-12-19 17:00:29.431 [http-nio-8080-exec-9] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /emps/list
+2025-12-19 17:00:29.431 [http-nio-8080-exec-3] INFO  c.j.i.LoginCheckInterceptor - 拦截到请求: /clazzs
+2025-12-19 17:00:29.469 [http-nio-8080-exec-3] ERROR c.j.i.LoginCheckInterceptor - 令牌解析失败: JWT expired at 2025-12-19T12:04:08Z. Current time: 2025-12-19T17:00:29Z, a difference of 17781449 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-12-19 17:00:29.469 [http-nio-8080-exec-9] ERROR c.j.i.LoginCheckInterceptor - 令牌解析失败: JWT expired at 2025-12-19T12:04:08Z. Current time: 2025-12-19T17:00:29Z, a difference of 17781449 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-12-19 17:00:40.835 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 17:00:40.865 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-19 17:00:40.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-19 17:00:40.899 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

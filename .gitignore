@@ -1,0 +1,4 @@
+# Project exclude paths
+/smart-pojo/target/
+/smart-utils/target/
+/smart-web-manager/target/
